@@ -3,5 +3,5 @@
 
 while [ 1 ]; do
   rescue_command
+  suspend_command
 done
-suspend_command

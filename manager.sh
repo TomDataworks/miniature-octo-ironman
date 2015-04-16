@@ -8,4 +8,3 @@ while [ 1 ]; do
     socat - UDP-DATAGRAM:$WAKEADDR:7 < wake.packet
   fi
 done
-
