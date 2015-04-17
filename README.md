@@ -8,7 +8,7 @@ You would have had to babysit the backup process, constantly cycling power, perh
 Adjust the file paths in config.sh for your particular situation, as well as the ethernet address. You will also want to adjust the timeout so that the system will have time to go into suspend mode and cool down a little.
 
 ## Ideal Setup
-You want a network booted operating system to run the recovery machine on, and you certainly can't use the failing drive. The output file can be on a local drive, or a network mounted partition. You must have another computer which has a Bourne-like shell. Desktop, laptop, 20 year old dinosaur, doesn't matter.
+You want a network booted operating system to run the recovery machine on, and you certainly can't use the failing drive. The output file can be on a local drive, or a network mounted partition. You must have another computer which has a Bourne-like shell. Desktop, laptop, 20 year old dinosaur, doesn't matter. Yeah, even a rooted android phone could do it.
 
 ## Without Network Boot
-If you've only got a CD to use for recovery, you will need a way to notify the manager script that the recovery system needs to be awakened. The easiest, and fastest way to achieve this is using a network mounted directory with NFS.
+If you've only got a CD to use for recovery, you will need a way to notify the manager script that the recovery system needs to be awakened. The easiest, and fastest way to achieve this is using a network mounted directory with NFS. CIFS or SSHFS would also work, but it might take some more configuration.
