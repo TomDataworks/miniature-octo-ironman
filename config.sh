@@ -9,3 +9,7 @@ RESCUELOG="rescue.log"
 rescue_command() {
   ddrescue
 }
+
+suspend_command() {
+  pm-suspend
+}
