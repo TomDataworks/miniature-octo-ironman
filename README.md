@@ -4,6 +4,8 @@ Ever have a drive which you can get a little bit of data from, and you are prett
 
 You would have had to babysit the backup process, constantly cycling power, perhaps making some mistakes. ddrescue is a powerful tool, but it's only useful if the system can talk to the drive at all. This is a poor man's data recovery tool, and it's by no means fast. But it can get the job done.
 
+*UPDATE:* I have used this to recover a chunk of what was missing from a drive but ended up giving in and swapping with a new controller board. Several years to a decade to recover files is not a fun thought, it also likely meant the controller would fail further.
+
 ## Tuning
 Adjust the file paths in config.sh for your particular situation, as well as the ethernet address. You will also want to adjust the timeout so that the system will have time to go into suspend mode and cool down a little.
 
